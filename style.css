@@ -1,0 +1,40 @@
+body{
+  background-color: #202020
+}
+
+p{
+  font-family: webfont;
+  font-size: 48px;
+  line-height: 0%;
+}
+
+@font-face
+    {
+    font-family: webfont;
+    src: url("Unkempt-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mid{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -220px 0 0 -220px; /* Apply negative top and left margins to truly center the element */
+}
+
+.pink-text{
+  color: #C882B9; /* F0AABA */
+}
+
+.white-text{
+  color: #FFFFFF;
+}
+
+.green-text{
+  color: #70db70
+}
+
+.orange-text{
+color: #ffa64d
+}
